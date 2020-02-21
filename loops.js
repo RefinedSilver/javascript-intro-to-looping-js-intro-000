@@ -1,7 +1,7 @@
 function forLoop(arr) {
 	output = [];
 
-  for (let i = 1; i <= arr; i++) {
+  for (let i = 0; i <= arr; i++) {
     if (i === 1) {
       output.push("I am " + [i] + " strange loop.");
     } else if {
