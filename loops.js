@@ -1,10 +1,13 @@
 function forLoop(arr) {
+	output = [];
 
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 1; i < arr; i++) {
     if (i === 1) {
-      return `I am {arr[1]} strange loop.`;
+      output.push(`I am ${1} strange loop.`);
+    } else {
+      output.push(`I am ${i} strange loops.`);
     }
-    arr.push("Thanks, Flatiron for starting my programming career!")
   }
+  return output;
 }
 console.log(forLoop(25));
