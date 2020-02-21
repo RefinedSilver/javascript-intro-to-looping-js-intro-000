@@ -4,9 +4,9 @@ function forLoop(arr) {
   for (let i = 1; i <= arr; i++) {
     if (i === 1) {
       output.push("I am " + [i] + " strange loop.");
-    } else {
+    } else if {
       output.push("I am " + [i] + " strange loops.");
-    } else
+    } else {output.shift();}
   }
   return output;
 }
