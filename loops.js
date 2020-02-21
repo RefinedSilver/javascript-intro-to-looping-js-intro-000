@@ -1,7 +1,7 @@
 function forLoop(arr) {
 	output = [];
 
-  for (let i = 1; i < arr; i++) {
+  for (let i = 1; i <= arr; i++) {
     if (i === 1) {
       output.push(`I am ${1} strange loop.`);
     } else {
@@ -10,4 +10,3 @@ function forLoop(arr) {
   }
   return output;
 }
-console.log(forLoop(25));
